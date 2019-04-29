@@ -53,12 +53,7 @@
 				$this->setDtcadastro(new DateTime($row['dtcadastro']));
 
 			}
-
-			else {
-
-				echo 'nada';
-			}
-
+			
 		}
 
 		public function __toString() {
